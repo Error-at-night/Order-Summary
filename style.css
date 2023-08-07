@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container > .background-image{
+    width: 100%;
+    position: relative;
+}
+
+.div-container{
+    background-color: white;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+    height: 580px;
+}
+
+.illustration-hero{
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order-summary{
+    margin-top: 30px;
+}
+
+.order-summary-paragraph{
+    margin-top: 20px;
+    line-height: 1.4em;
+}
+
+.flex-container{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.music-image{
+    margin-right: 15px;
+}
+
+.annual-plan{
+    margin-bottom: 8px;
+    display: block;
+}
+
+.change{
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.change a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.8);
+}
+
+.proceed-to-payment-paragraph{
+    margin-top: 45px;
+}
+
+.proceed-to-payment{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-align: center;
+    padding: 15px 85px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.proceed-to-payment:hover {
+    background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+.cancel-order-paragraph{
+    margin-top: 40px;
+}
+
+.cancel-order{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
